@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────
+# The Syntax Surgeon - Requirements
+# AI-Powered Code Fixer using IBM Granite 3.3 2B
+# ─────────────────────────────────────────────
+
+# Web Interface
+gradio==4.41.0
+
+# AI Model Loading & Inference
+transformers==4.44.0
+huggingface-hub==0.24.0
+
+# Deep Learning Framework
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+
+# Python Code Formatting
+black==24.4.2
+autopep8==2.1.0
+
+# PDF Export
+reportlab==4.2.2
+
+# HTTP Requests (Pastebin sharing)
+requests==2.32.3
+
+# Tokenizer support
+sentencepiece==0.2.0
+tokenizers==0.19.1
+
+# Accelerate (speeds up model loading on GPU)
+accelerate==0.33.0
+
+# Safetensors (faster/safer model file format)
+safetensors==0.4.3
